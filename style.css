@@ -15,7 +15,7 @@ body {
 	background-image: url('img/bg.png');
 	background-size: 100%;
 	background-repeat: no-repeat;
-    background-attachment: fixed;
+  background-attachment: fixed;
 	/*background-color: grey;*/
 	color: #000305;
 	font-size: 87.5%; /* Base font size: 14px */
