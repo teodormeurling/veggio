@@ -168,68 +168,39 @@ a:hover, a:active {
 /* ===========================
    ======= Content Area ======
    =========================== */
-/*.flex-container {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-content: stretch;
-    align-items: flex-start;
-    }
 
-.flex-item:nth-child(1) {
-    order: 0;
-    flex: 0 1 auto;
-    align-self: auto;
-    }
+	 /* make keyframes that tell the start state and the end state of our object */
 
-.flex-item:nth-child(2) {
-    order: 0;
-    flex: 0 1 auto;
-    align-self: auto;
-    }*/
+	 @-webkit-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+	 @-moz-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+	 @keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
 
-/*
-    .flexcontainer {
-       display: -webkit-flex;
-       display: flex;
-       -webkit-flex-direction: row /* works with row or column 
-       flex-direction: row;
-       -webkit-align-items: center;
-       align-items: center;
-       -webkit-justify-content: center;
-       justify-content: center;
-    }*/
+	 .fade-in {
+	 	opacity:0;  /* make things invisible upon start */
+	 	-webkit-animation:fadeIn ease-in 1;  /* call our keyframe named fadeIn, use animattion ease-in and repeat it only 1 time */
+	 	-moz-animation:fadeIn ease-in 1;
+	 	animation:fadeIn ease-in 1;
 
+	 	-webkit-animation-fill-mode:forwards;  /* this makes sure that after animation is done we remain at the last keyframe value (opacity: 1)*/
+	 	-moz-animation-fill-mode:forwards;
+	 	animation-fill-mode:forwards;
 
-/*.flex-items-default {
-    width: 300px;
-    height: 250px;
-    flex-grow: 0;
-    flex-shrink: 0;
-    flex-basis: 0;
-}
+	 	-webkit-animation-duration:1s;
+	 	-moz-animation-duration:1s;
+	 	animation-duration:1s;
+	 }
 
- .flex-item-1 {
-    max-width: 300px;
-    height: 250px;
-    flex-grow: 1;
-    flex-shrink: 0;
-    flex-basis: 200px;
-}
+	 .fade-in.one {
+	 -webkit-animation-delay: 0.7s;
+	 -moz-animation-delay: 0.7s;
+	 animation-delay: 0.7s;
+	 }
 
- .flex-item-2 {
-    max-width: 300px;
-    height: 250px;
-    flex-grow: 1;
-    flex-shrink: 0;
-    flex-basis: 200px;
-}*/
-/*img {
-    max-width: 100%;
-    height: auto;
-    object-fit: contain;
-}*/
+	 .fade-in.two {
+	 -webkit-animation-delay: 1.2s;
+	 -moz-animation-delay:1.2s;
+	 animation-delay: 1.2s;
+	 }
 
 .mainContent {
 	overflow: hidden;
@@ -249,8 +220,8 @@ a:hover, a:active {
 	-webkit-border-radius: 5px;
 	margin: 5%;
 	padding: 3% 5%;
-	margin-bottom: 3%;
 }
+
 
 .bottomcontent {
 	width: 30%;
