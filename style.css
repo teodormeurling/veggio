@@ -67,13 +67,13 @@ img {
 }
 
 a:link, a:visited {
-	color: #CF5C3F;
+	color: #427AA1;
 	padding: 0 1px;
 	text-decoration: none;
 }
 
 a:hover, a:active {
-	background-color: #CF5C3F;
+	background-color: #05668D;
 	color: #fff;
 	text-decoration: none;
 }
@@ -214,7 +214,7 @@ a:hover, a:active {
 	width: 30%;
 	float: right;
 	display: inline-block;
-	background-color: #FFF;
+	background-color: #EBF2FA;
 	border-radius: 5px;
 	-moz-border-radius: 5px;
 	-webkit-border-radius: 5px;
@@ -227,7 +227,7 @@ a:hover, a:active {
 	width: 30%;
 	float: left;
 	display: inline-block;
-	background-color: #FFF;
+	background-color: #EBF2FA;
 	border-radius: 5px;
 	-moz-border-radius: 5px;
 	-webkit-border-radius: 5px;
