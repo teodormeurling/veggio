@@ -36,7 +36,8 @@ body {
    ========= Headings ========
    =========================== */
 h1 {font-weight: lighter;
-	font-size: 4em;}
+	font-size: 4em;
+	color: white;}
 h2 {font-size: 2em;
 	font-weight: lighter;}	/* 22px */
 h3 {font-size: 1.429em}	/* 20px */
@@ -216,7 +217,7 @@ a:hover, a:active {
 }
 
 .topcontent {
-	width: 35%;
+	width: 40%;
 	float: right;
 	display: inline-block;
 	background-color: #EBF2FA;
@@ -230,7 +231,7 @@ a:hover, a:active {
 
 
 .bottomcontent {
-	width: 35%;
+	width: 40%;
 	float: left;
 	display: inline-block;
 	background-color: #EBF2FA;
