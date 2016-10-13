@@ -36,11 +36,14 @@ body {
    ========= Headings ========
    =========================== */
 h1 {font-weight: lighter;
-	font-size: 4em;
-	color: white;}
+	font-size: 5em;
+	color: white;
+	letter-spacing: 0.2em;}
 h2 {font-size: 2em;
 	font-weight: lighter;}	/* 22px */
-h3 {font-size: 1.429em}	/* 20px */
+h3 {font-size: 1.6em;
+	font-weight: lighter;
+	/*text-align: center;*/}	/* 20px */
 h4 {font-size: 1.286em}	/* 18px */
 h5 {font-size: 1.143em}	/* 16px */
 h6 {font-size: 1em}		/* 14px */
@@ -255,6 +258,26 @@ a:hover, a:active {
 	font-style: italic;
 	color: #999;
 	font-size: 85%;
+}
+
+
+.expanding_panel .expanding_panel_trigger {
+	cursor: pointer;
+	color: 00a5d5;
+	font-weight: 600;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-delect: none ;
+	user-select: none;
+}
+
+.expanding_panel .expanding_panel_trigger:hover {
+	color: #555; text-decoration: underline;
+}
+
+.expanding_panel .expanding_panel_trigger::before {
+	content: '+ '; padding-right: 5px;
+
 }
 
 /* ===========================
