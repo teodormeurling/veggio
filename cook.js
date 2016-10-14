@@ -1,4 +1,4 @@
-  randomNumber = Math.floor(Math.random()*4+1);
+  randomNumber = Math.floor(Math.random()*18+1);
 
   window.onload = function() {
   	if (randomNumber == 1) {
