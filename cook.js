@@ -1,10 +1,11 @@
   randomNumber = Math.floor(Math.random()*18+1);
-
+  console.log(randomNumber)
   window.onload = function() {
   	if (randomNumber == 1) {
   		document.getElementById("cook1").style.display = "inline";
   		document.getElementById("cook2").style.display = "none";
   		document.getElementById("cook3").style.display = "none";
+      document.getElementById("cook4").style.display = "none";
   		document.getElementById("cook5").style.display = "none";
       document.getElementById("cook6").style.display = "none";
       document.getElementById("cook7").style.display = "none";
@@ -24,6 +25,7 @@
       document.getElementById("cook1").style.display = "none";
       document.getElementById("cook2").style.display = "inline";
       document.getElementById("cook3").style.display = "none";
+      document.getElementById("cook4").style.display = "none";
       document.getElementById("cook5").style.display = "none";
       document.getElementById("cook6").style.display = "none";
       document.getElementById("cook7").style.display = "none";
@@ -103,6 +105,7 @@
       document.getElementById("cook1").style.display = "none";
       document.getElementById("cook2").style.display = "none";
       document.getElementById("cook3").style.display = "none";
+      document.getElementById("cook4").style.display = "none";
       document.getElementById("cook5").style.display = "none";
       document.getElementById("cook6").style.display = "inline";
       document.getElementById("cook7").style.display = "none";
@@ -122,6 +125,7 @@
       document.getElementById("cook1").style.display = "none";
       document.getElementById("cook2").style.display = "none";
       document.getElementById("cook3").style.display = "none";
+      document.getElementById("cook4").style.display = "none";
       document.getElementById("cook5").style.display = "none";
       document.getElementById("cook6").style.display = "none";
       document.getElementById("cook7").style.display = "inline";
@@ -141,6 +145,7 @@
       document.getElementById("cook1").style.display = "none";
       document.getElementById("cook2").style.display = "none";
       document.getElementById("cook3").style.display = "none";
+      document.getElementById("cook4").style.display = "none";
       document.getElementById("cook5").style.display = "none";
       document.getElementById("cook6").style.display = "none";
       document.getElementById("cook7").style.display = "none";
@@ -160,6 +165,7 @@
       document.getElementById("cook1").style.display = "none";
       document.getElementById("cook2").style.display = "none";
       document.getElementById("cook3").style.display = "none";
+      document.getElementById("cook4").style.display = "none";
       document.getElementById("cook5").style.display = "none";
       document.getElementById("cook6").style.display = "none";
       document.getElementById("cook7").style.display = "none";
@@ -179,6 +185,7 @@
       document.getElementById("cook1").style.display = "none";
       document.getElementById("cook2").style.display = "none";
       document.getElementById("cook3").style.display = "none";
+      document.getElementById("cook4").style.display = "none";
       document.getElementById("cook5").style.display = "none";
       document.getElementById("cook6").style.display = "none";
       document.getElementById("cook7").style.display = "none";
@@ -199,6 +206,7 @@
       document.getElementById("cook2").style.display = "none";
       document.getElementById("cook3").style.display = "none";
       document.getElementById("cook5").style.display = "none";
+      document.getElementById("cook4").style.display = "none";
       document.getElementById("cook6").style.display = "none";
       document.getElementById("cook7").style.display = "none";
       document.getElementById("cook8").style.display = "none";
@@ -218,6 +226,7 @@
       document.getElementById("cook2").style.display = "none";
       document.getElementById("cook3").style.display = "none";
       document.getElementById("cook5").style.display = "none";
+      document.getElementById("cook4").style.display = "none";
       document.getElementById("cook6").style.display = "none";
       document.getElementById("cook7").style.display = "none";
       document.getElementById("cook8").style.display = "none";
@@ -236,6 +245,7 @@
       document.getElementById("cook1").style.display = "none";
       document.getElementById("cook2").style.display = "none";
       document.getElementById("cook3").style.display = "none";
+      document.getElementById("cook4").style.display = "none";
       document.getElementById("cook5").style.display = "none";
       document.getElementById("cook6").style.display = "none";
       document.getElementById("cook7").style.display = "none";
@@ -255,6 +265,7 @@
       document.getElementById("cook1").style.display = "none";
       document.getElementById("cook2").style.display = "none";
       document.getElementById("cook3").style.display = "none";
+      document.getElementById("cook4").style.display = "none";
       document.getElementById("cook5").style.display = "none";
       document.getElementById("cook6").style.display = "none";
       document.getElementById("cook7").style.display = "none";
@@ -274,6 +285,7 @@
       document.getElementById("cook1").style.display = "none";
       document.getElementById("cook2").style.display = "none";
       document.getElementById("cook3").style.display = "none";
+      document.getElementById("cook4").style.display = "none";
       document.getElementById("cook5").style.display = "none";
       document.getElementById("cook6").style.display = "none";
       document.getElementById("cook7").style.display = "none";
@@ -293,6 +305,7 @@
       document.getElementById("cook1").style.display = "none";
       document.getElementById("cook2").style.display = "none";
       document.getElementById("cook3").style.display = "none";
+      document.getElementById("cook4").style.display = "none";
       document.getElementById("cook5").style.display = "none";
       document.getElementById("cook6").style.display = "none";
       document.getElementById("cook7").style.display = "none";
@@ -312,6 +325,7 @@
       document.getElementById("cook1").style.display = "none";
       document.getElementById("cook2").style.display = "none";
       document.getElementById("cook3").style.display = "none";
+      document.getElementById("cook4").style.display = "none";
       document.getElementById("cook5").style.display = "none";
       document.getElementById("cook6").style.display = "none";
       document.getElementById("cook7").style.display = "none";
@@ -331,6 +345,7 @@
       document.getElementById("cook1").style.display = "none";
       document.getElementById("cook2").style.display = "none";
       document.getElementById("cook3").style.display = "none";
+      document.getElementById("cook4").style.display = "none";
       document.getElementById("cook5").style.display = "none";
       document.getElementById("cook6").style.display = "none";
       document.getElementById("cook7").style.display = "none";
