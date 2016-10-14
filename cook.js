@@ -25,6 +25,12 @@
   		document.getElementById("cook3").style.display = "none";
   		document.getElementById("cook4").style.display = "inline";
   	}
+    if (randomNumber == 5) {
+      document.getElementById("cook1").style.display = "none";
+      document.getElementById("cook2").style.display = "none";
+      document.getElementById("cook3").style.display = "none";
+      document.getElementById("cook4").style.display = "inline";
+    }
 
     // repeat this for all 18 restaurants
 
