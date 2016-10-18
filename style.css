@@ -3,7 +3,7 @@
    =========================== */
 
 body {
-	background-image: url('img/Artboard 2.png');
+	background-image: url('img/bg.png');
 	background-size: 100%;
 	background-repeat: no-repeat;
   	background-attachment: fixed;
@@ -353,4 +353,8 @@ a:hover, a:active {
 		width: 86%;
 		margin: 2% auto;
 	}
+}
+
+@media screen and (max-width: 1000px) {
+	body {background-size: 80px 60px }
 }
