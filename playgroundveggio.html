@@ -1,31 +1,65 @@
 <!DOCTYPE html>
 <html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Responsive Landing Page Template With Flexbox</title>
 
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-				<title>Veggio - Easy Vegan Eating!</title>
-				<link rel="stylesheet" href="style.css" type="text/css" />
-				<script src="cook.js"></script>
-    </head>
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.6.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <script src="assets/js/cook.js"></script>
 
-<body class="body">
 
-	<header class="mainHeader">
-    
-		<a><h1>Veggio</h1>
-    <h2>Easy vegan eating</h2>
-    <a onClick="window.location.reload()" class="btn";>Go eat!</a>
-  <!--   <a onClick="window.location.reload()"><h2>Refresh Suggestion</h2></a> -->
+</head>
 
+<body>
+
+	<header>
+		<h2><a href="#">Website Logo</a></h2>
+		<nav>
+			<li><a href="#">Home</a></li>
+			<li><a href="#">Products</a></li>
+			<li><a href="#">About</a></li>
+			<li><a href="#">Contacts</a></li>
+		</nav>
 	</header>
 
-<h2 class="title">Go out or stay in?</h2>
-    <p id="about">Have you ever thought being a vegan is difficult? Veggio is here to help you! It offers you the best recipes and restaurant options close to your location !</p>
-    <hr>
 
-      <div id="maincontent">
-				<article class="topcontent fade-in one">
+	<section class="hero">
+		<div class="background-image" style="background-image: url(assets/img/hero.jpg);"></div>
+		<h1>Veggio</h1>
+		<h3>Easy vegan eating.</h3>
+		<a href="#our-work" class="btn">Go eat!</a>
+	</section>
+
+
+	<!-- <section class="our-work">
+		<h3 class="title">Some of our work</h3>
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id felis et ipsum bibendum ultrices. Morbi vitae pulvinar velit. Sed aliquam dictum sapien, id sagittis augue malesuada eu.</p>
+		<hr>
+
+		<ul class="grid">
+			<li class="small" style="background-image: url(assets/img/coast.jpg);"></li>
+			<li class="large" style="background-image: url(assets/img/island.jpg);"></li>
+			<li class="large" style="background-image: url(assets/img/balloon.jpg);"></li>
+			<li class="small" style="background-image: url(assets/img/mountain.jpg);"></li>
+		</div>
+	</section> -->
+
+
+	<section class="features">
+		<h3 class="title">Go out or stay in?</h3>
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id felis et ipsum bibendum ultrices. Morbi vitae pulvinar velit. Sed aliquam dictum sapien, id sagittis augue malesuada eu.</p>
+		<!-- <hr> -->
+
+		<ul class="grid">
+			<li>
+				<i class="fa fa-camera-retro"></i>
+				<h4>Cook?</h4>
+        <article class="topcontent fade-in one">
         <main>
             <div id="cook1">
               <article class="recipe" id="eggplant">
@@ -521,55 +555,58 @@
               <a href="http://cookieandkate.com/2014/quick-vegan-chana-masala/">Cookie And Kate</a>
             </article>
           </div>
-        </main>
-        <a href="recipes.html"><p>View all suggestions</p></a>
-      </article>
+          </main>
+          <a href="recipes.html"><p>View all suggestions</p></a>
+        </article>
+			</li>
 
-				<article class="bottomcontent fade-in two">
-				<main>
-							<div id="eat1">
-								<article class="restaurant" id="bananas">
-									<h3>Bistro Bananas</h3>
-									<img src="img/bananas.jpg">
-									<p>Skånegatan 47, 116 37 Stockholm</p>
-									<p>No Reservations</p>
-									<p>Mon - Fri: 17 - 01, Sat - Sun: 12 - 01</p>
-									<p>Delicious trendy pizzas (and more!) served in a hip locale near Skanstull, wide selection of beer and wine - take-away option available!</p>
-								</article>
-							</div>
+			<li>
+				<i class="fa fa-cubes"></i>
+				<h4>Eat out?</h4>
+        <main>
+              <div id="eat1">
+                <article class="restaurant" id="bananas">
+                  <h3>Bistro Bananas</h3>
+                  <img src="img/bananas.jpg">
+                  <p>Skånegatan 47, 116 37 Stockholm</p>
+                  <p>No Reservations</p>
+                  <p>Mon - Fri: 17 - 01, Sat - Sun: 12 - 01</p>
+                  <p>Delicious trendy pizzas (and more!) served in a hip locale near Skanstull, wide selection of beer and wine - take-away option available!</p>
+                </article>
+              </div>
 
-							<div id="eat2">
-								<article class="restaurant" id="godot">
-									<h3>Brasserie Godot</h3>
-									<img src="img/godot.jpg">
-									<p>Grev Turegatan 36, 114 36</p>
-									<p>Phone: 08-660 06 14</p>
-									<p>Mon - Thu: 17.00 - 23.00, Fri - Sat: 17:00 - 01:00</p>
-									<p>A contemporary take on the classic french brasserie combined with modern cooking techniques - Seasonal dishes à la carte and a full vegan menu!</p>
-								</article>
-							</div>
+              <div id="eat2">
+                <article class="restaurant" id="godot">
+                  <h3>Brasserie Godot</h3>
+                  <img src="img/godot.jpg">
+                  <p>Grev Turegatan 36, 114 36</p>
+                  <p>Phone: 08-660 06 14</p>
+                  <p>Mon - Thu: 17.00 - 23.00, Fri - Sat: 17:00 - 01:00</p>
+                  <p>A contemporary take on the classic french brasserie combined with modern cooking techniques - Seasonal dishes à la carte and a full vegan menu!</p>
+                </article>
+              </div>
 
-							<div id="eat3">
-								<article class="restaurant" id="lenom">
-									<h3>Le Nom</h3>
-									<img src="img/lenom.jpg">
-									<p>Roslagsgatan 6, 113 32</p>
-									<p>Phone: 08-10 01 53</p>
-									<p>Mon - Fri: 17:00 - Late</p>
-									<p>Le Nom is a completely non-classic restaurant with an innovative way of serving meals. All menu items come as a "middle dish", diners are free to compose their meals however they want.</p>
-								</article>
-							</div>
+              <div id="eat3">
+                <article class="restaurant" id="lenom">
+                  <h3>Le Nom</h3>
+                  <img src="img/lenom.jpg">
+                  <p>Roslagsgatan 6, 113 32</p>
+                  <p>Phone: 08-10 01 53</p>
+                  <p>Mon - Fri: 17:00 - Late</p>
+                  <p>Le Nom is a completely non-classic restaurant with an innovative way of serving meals. All menu items come as a "middle dish", diners are free to compose their meals however they want.</p>
+                </article>
+              </div>
 
-							<div id="eat4">
-								<article class="restaurant" id="plant">
-									<h3>The Plant</h3>
-									<img src="img/theplant.png">
-									<p>Götgatan 132, 118 62 Stockholm</p>
-									<p>08 21 51 52</p>
-									<p>Mon - Thurs 11:00 - 21:00, Fri - Sat 11:00 - 22:00, Sun 11:00 - 20:00</p>
-									<p>The Plant is a vegan and organic fast-food restaurant that offers great, fresh and healthy food. The focus lies on a lot of flavor, delicious appearance and hearty dishes</p>
-								</article>
-							</div>
+              <div id="eat4">
+                <article class="restaurant" id="plant">
+                  <h3>The Plant</h3>
+                  <img src="img/theplant.png">
+                  <p>Götgatan 132, 118 62 Stockholm</p>
+                  <p>08 21 51 52</p>
+                  <p>Mon - Thurs 11:00 - 21:00, Fri - Sat 11:00 - 22:00, Sun 11:00 - 20:00</p>
+                  <p>The Plant is a vegan and organic fast-food restaurant that offers great, fresh and healthy food. The focus lies on a lot of flavor, delicious appearance and hearty dishes</p>
+                </article>
+              </div>
 
               <div id="eat5">
                 <article class="restaurant" id="omnipollo">
@@ -724,16 +761,59 @@
                   <p>Only organic and raw food here. No GDS, no gluten, no dairy, and no sugar.</p>
                 </article>
               </div>
-				</main>
-        <a href="restaurants.html"><p>View all suggestions</p></a>
-			  </article>
-      </div>
+                </main>
+                <a href="restaurants.html"><p>View all suggestions</p></a>
+                </article>
+
+			</li>
+			<!-- <li>
+				<i class="fa fa-newspaper-o"></i>
+				<h4>Content Editing</h4>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id felis et ipsum bibendum ultrices vitae pulvinar velit.</p>
+			</li> -->
+		</div>
+	</section>
 
 
+	<!-- <section class="reviews">
+		<h3 class="title">What others say:</h3>
 
-	<footer class="mainFooter">
-		<p>Copyright &copy; 2016 veggio</p>
+		<p class="quote">Mauris sit amet mauris a arcu eleifend ultricies eget ut dolor. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
+		<p class="author">— Patrick Farrell</p>
+
+		<p class="quote">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id felis et ipsum bibendum ultrices. Morbi vitae pulvinar velit. Sed aliquam dictum sapien, id sagittis augue malesuada eu.</p>
+		<p class="author">— George Smith</p>
+
+		<p class="quote">Donec commodo dolor augue, vitae faucibus tortor tincidunt in. Aliquam vitae leo quis mi pulvinar ornare. Integer eu iaculis metus.</p>
+		<p class="author">— Kevin Blake</p>
+
+
+	</section> -->
+
+
+	<!-- <section class="contact">
+		<h3 class="title">Join our newsletter</h3>
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id felis et ipsum bibendum ultrices. Morbi vitae pulvinar velit. Sed aliquam dictum sapien, id sagittis augue malesuada eu.</p>
+		<hr>
+
+		<form>
+			<input type="email" placeholder="Email">
+			<a href="#" class="btn">Subscribe now</a>
+		</form>
+	</section> -->
+
+	<footer>
+		<ul>
+			<li><a href="#"><i class="fa fa-twitter-square"></i></a></li>
+			<li><a href="#"><i class="fa fa-facebook-square"></i></a></li>
+			<li><a href="#"><i class="fa fa-snapchat-square"></i></a></li>
+			<li><a href="#"><i class="fa fa-pinterest-square"></i></a></li>
+			<li><a href="#"><i class="fa fa-github-square"></i></a></li>
+		</ul>
+		<p>Made by <a href="http://tutorialzine.com/" target="_blank">tutorialzine</a>. images courtesy to <a href="http://unsplash.com/" target="_blank">unsplash</a>.</p>
+		<p>No attribution required. you can remove this footer.</p>
 	</footer>
 
 </body>
+
 </html>
