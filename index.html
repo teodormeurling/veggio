@@ -6,6 +6,8 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 				<title>Veggio - Easy Vegan Eating!</title>
 				<link rel="stylesheet" href="style.css" type="text/css" />
+       <!--  <link rel="stylesheet" href="indexrcss.css" type="text/css" /> -->
+
 				<script src="cook.js"></script>
     </head>
 
@@ -20,14 +22,16 @@
 
 	</header>
 
-<h2 id="title">Go out or stay in?</h2> 
+<h2 id="title">Go out or stay in?</h2>
     <p id="about">Have you ever thought being a vegan is difficult? <br> Veggio is here to help you by offering you the best recipes and restaurant options in Stockholm!</p>
    <div>
         <a a href="#title" onClick="window.location.reload()" class="btn" id="else";>Refresh suggestion</a>
-      </div> 
+      </div>
 
     <hr>
       <div id="maincontent">
+        <div class="section group">
+	         <div class="col span_1_of_2">
 				<article class="topcontent fade-in one">
         <main>
             <div id="cook1">
@@ -527,6 +531,8 @@
         </main>
         <a id="viewAll" href="recipes.html"><p>View all suggestions</p></a>
       </article>
+    </div>
+    <div class="col span_1_of_2">
 
 				<article class="bottomcontent fade-in two">
 				<main>
@@ -731,12 +737,26 @@
         <a id="viewAll" href="restaurants.html"><p>View all suggestions</p></a>
 			  </article>
       </div>
+    </div>
+  </div>
 
 
 
 <!-- 	<footer class="mainFooter">
 		<p>Copyright &copy; 2016 veggio</p>
 	</footer> -->
+
+
+  <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-84075218-3', 'auto');
+  ga('send', 'pageview');
+
+</script>
 
 </body>
 </html>
