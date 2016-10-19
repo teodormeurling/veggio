@@ -261,8 +261,8 @@ a:hover, a:active {
 }
 
 .topcontent {
-	width: 40%;
-	float: right;
+	width: 100%;
+	/*float: right;*/
 	display: inline-block;
 	background-color: white;
 	border-radius: 5px;
@@ -275,8 +275,8 @@ a:hover, a:active {
 
 
 .bottomcontent {
-	width: 40%;
-	float: left;
+	width: 100%;
+	/*float: left;*/
 	display: inline-block;
 	background-color: white;
 	border-radius: 5px;
