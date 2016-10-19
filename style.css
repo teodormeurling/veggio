@@ -74,7 +74,7 @@ a.btn1{
 #else {
 	float: right;
 	width: 20%;
-	margin-top: 0px;
+	margin-top: 12px;
 	margin-right: 15%;
 	text-align: center;
 	  background: #3498db;
@@ -92,10 +92,12 @@ a.btn1{
 }
 
 #viewAll {
+	font-size: 1.2em;
 	color: black;
 	text-align: right;
 	margin: 20px;
 	font-style: italic;
+	text-decoration: underline;
 
 }
 
