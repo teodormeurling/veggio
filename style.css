@@ -34,7 +34,7 @@ body {
 
 #maincontent {
 	clear: both;
-	margin: 0 auto;
+	margin: auto;
 	width: 80%;
 }
 
@@ -87,8 +87,6 @@ a.btn1{
 	  font-size: 25px;
 	  padding: 10px 20px 10px 20px;
 	  text-decoration: none;
-
-
 }
 
 #viewAll {
@@ -209,18 +207,19 @@ a:hover, a:active {
  }
 
  .fade-in.one {
-	 -webkit-animation-delay: 0.7s;
-	 -moz-animation-delay: 0.7s;
-	 animation-delay: 0.7s;
- }
-
- .fade-in.two {
 	 -webkit-animation-delay: 0.2s;
-	 -moz-animation-delay:0.2s;
+	 -moz-animation-delay: 0.2s;
 	 animation-delay: 0.2s;
  }
 
+ .fade-in.two {
+	 -webkit-animation-delay: 0.7s;
+	 -moz-animation-delay:0.7s;
+	 animation-delay: 0.7s;
+ }
+
 .mainContent {
+	margin: auto;
 	overflow: hidden;
 	line-height: 25px;
 	border-radius: 5px;
@@ -248,7 +247,7 @@ a:hover, a:active {
 }
 
 .allRestaurants {
-	width: 70%;
+	width: 100%;
 	float: none;
 	display: inline-block;
 	background-color: white;
@@ -261,8 +260,8 @@ a:hover, a:active {
 }
 
 .topcontent {
-	width: 40%;
-	float: right;
+	width: 90%;
+	/*float: right;*/
 	display: inline-block;
 	background-color: white;
 	border-radius: 5px;
@@ -275,8 +274,8 @@ a:hover, a:active {
 
 
 .bottomcontent {
-	width: 40%;
-	float: left;
+	width: 90%;
+	/*float: left;*/
 	display: inline-block;
 	background-color: white;
 	border-radius: 5px;
@@ -322,7 +321,6 @@ a:hover, a:active {
 }
 
 .mainFooter {
-
 	width: 80%;
 	bottom: 0px;
 	position: center;
@@ -347,32 +345,30 @@ a:hover, a:active {
    ====== Media Queries ======
    =========================== */
 
-@media only screen and (min-width : 150px) and (max-width : 780px)
-{
+@media only screen and (min-width : 150px) and (max-width : 780px){
+
 	.body {
 		clear: both;
 		margin: 0 auto;
-		width: 90%;
+		width: 95%;
 		font-size: 90%;
 	}
 
-
-	.mainContent {
-		overflow: hidden;
-		line-height: 25px;
-		border-radius: 5px;
-		-moz-border-radius: 5px;
-		-webkit-border-radius: 5px;
-		margin-top: 4%;
-		margin-bottom: 2%;
+	.mainHeader {
+		background-image: url('img/backroundmobile.png');
 	}
+
+	#else {
+	margin-bottom: 20px;
+	
+}
 
 	.topcontent {
 		background-color: 255,255,255,0.5;
 		border-radius: 5px;
 		-moz-border-radius: 5px;
 		-webkit-border-radius: 5px;
-		padding: 2% 5%;
+		
 		margin-bottom: 4%;
 	}
 
@@ -381,7 +377,7 @@ a:hover, a:active {
 		border-radius: 5px;
 		-moz-border-radius: 5px;
 		-webkit-border-radius: 5px;
-		padding: 2% 5%;
+		
 	}
 
 	.content {
@@ -395,5 +391,84 @@ a:hover, a:active {
 	.post-info {
 		display: none;
 	}
+}
+
+/*  SECTIONS  */
+.section {
+	clear: both;
+	padding: 0px;
+	margin: 0px;
+}
+
+/*  COLUMN SETUP  */
+.col {
+	display: block;
+	float:left;
+	/*margin: 1% 0 1% 6%;*/
+}
+.col:first-child { margin-left: 0; }
+
+/*  GROUPING  */
+.group:before,
+.group:after { content:""; display:table; }
+.group:after { clear:both;}
+.group { zoom:1; /* For IE 6/7 */ }
+
+/*  GRID OF TWO  */
+.span_2_of_2 {
+	width: 100%;
+}
+.span_1_of_2 {
+	width: 47%;
+}
+
+/*  GO FULL WIDTH AT LESS THAN 480 PIXELS */
+
+@media only screen and (max-width: 480px) {
+	.col {
+		margin: 1% 0 1% 0%;
+	}
+
+.btn1{
+  margin-left: 35%;
+  margin-right: 35%;
+  margin-bottom: 5%;
+  position: relative;
+}
+a.btn1{
+	  text-align: center;
+	  background: #3498db;
+	  -webkit-border-radius: 5;
+	  -moz-border-radius: 5;
+	  border-radius: 5px;
+	  font-family: 'Gill Sans', 'Trebuchet MS', Arial, sans-serif;
+	  font-weight: lighter;
+	  color: #ffffff;
+	  font-size: 20px;
+	  padding: 10px 20px 10px 20px;
+	  text-decoration: none;
+	}
+
+	#about {
+	position: center;
+	width: 95%;
+	margin-top: 0px;
+	color: white;
+	font-size: 1.2em;
+	font-style: italic;
+	font-weight: lighter;
+	}
+
+	hr{
+	display: none;
+	}
+#title{
+	font-size: 1.5em;
+}
 
 }
+
+@media only screen and (max-width: 480px) {
+	.span_2_of_2, .span_1_of_2 { width: 100%; }
+}
+
